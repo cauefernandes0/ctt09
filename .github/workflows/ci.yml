@@ -1,6 +1,8 @@
 name: Teste de API
 
-on: [push]
+on:
+  push:
+  pull_request:
 
 jobs:
   verificar-api:
